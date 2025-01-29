@@ -1,0 +1,67 @@
+{
+    "serverUrl": "http://localhost:6066",
+    "redirectUri": "https://ringcentral.github.io/ringcentral-embeddable/redirect.html",
+    "author": {
+        "name": "QV Systems",
+        "websiteUrl": "https://qv.systems"
+    },
+    "platforms": {
+        "QVAccelerate": {
+            "logoUrl": "https://avatars.githubusercontent.com/u/6549285?s=200&v=4",
+            "documentationUrl": "https://ringcentral.github.io/rc-unified-crm-extension",
+            "releaseNotesUrl": "https://ringcentral.github.io/rc-unified-crm-extension/release-notes/",
+            "getSupportUrl": "https://community.ringcentral.com/topic/new?fid=22",
+            "writeReviewUrl": "https://chromewebstore.google.com/detail/ringcentral-crm-extension/kkhkjhafgdlihndcbnebljipgkandkhh/reviews",
+            "urlIdentifier": "*.quotevineapp.com/*",
+            "name": "QVAccelerate",
+            "displayName": "QV Accelerate",
+            "enableExtensionNumberLoggingSetting": true,
+            "requestConfig": {
+                "timeout": 30
+            },
+            "auth": {
+                "type": "apiKey",
+                "apiKey": {
+                    "page": {
+                        "title": "Accelerate",
+                        "content": [
+                            {
+                                "const": "apiKey",
+                                "title": "API Key",
+                                "type": "string",
+                                "required": true
+                            },
+                            {
+                                "const": "username",
+                                "title": "Username",
+                                "type": "string",
+                                "required": true
+                            },
+                            {
+                                "const": "password",
+                                "title": "Password",
+                                "type": "string",
+                                "required": true
+                            },
+                            {
+                                "const": "apiUrl",
+                                "title": "API Url",
+                                "type": "string",
+                                "required": true
+                            }
+                        ]
+                    }
+                }
+            },
+            "canOpenLogPage": false,
+            "contactPageUrl": "https://{hostname}/qvine/r/quotevine/a246/6100?p6100_relationship_id={contactId}&p6100_user_id={contactType}",
+            "embeddedOnCrmPage": {
+                "welcomePage": {
+                    "docLink": "https://ringcentral.github.io/rc-unified-crm-extension/",
+                    "videoLink": "https://youtu.be/pQgdsAR1UCI"
+                }
+            }
+        }
+    },
+    "version": "1.3.0"
+}
