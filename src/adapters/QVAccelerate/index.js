@@ -127,7 +127,7 @@ async function getUserInfo({ authHeader, additionalInfo }) {
         return {
             successful: true,
             platformUserInfo: {
-                id: userInfoResponse.user.userid,
+                id: String(userInfoResponse.user.userid),
                 name: userInfoResponse.user.display_name,
                 timezoneName: 'GMT',
                 timezoneOffset: 0,

@@ -1,5 +1,5 @@
 {
-    "serverUrl": "http://localhost:6066",
+    "serverUrl": "https://60ajr67q91.execute-api.eu-west-2.amazonaws.com/default",
     "redirectUri": "https://ringcentral.github.io/ringcentral-embeddable/redirect.html",
     "author": {
         "name": "QV Systems",
@@ -7,7 +7,7 @@
     },
     "platforms": {
         "QVAccelerate": {
-            "logoUrl": "https://avatars.githubusercontent.com/u/6549285?s=200&v=4",
+            "logoUrl": "https://www.qv.systems/hubfs/QV_Bubble_2-1.png",
             "documentationUrl": "https://ringcentral.github.io/rc-unified-crm-extension",
             "releaseNotesUrl": "https://ringcentral.github.io/rc-unified-crm-extension/release-notes/",
             "getSupportUrl": "https://community.ringcentral.com/topic/new?fid=22",
