@@ -172,7 +172,7 @@ async function unAuthorize({ user }) {
     return {
         returnMessage: {
             messageType: 'success',
-            message: 'Successfully logged out from TestCRM account.',
+            message: 'Successfully logged out from Accelerate account.',
             ttl: 3000
         }
     }
