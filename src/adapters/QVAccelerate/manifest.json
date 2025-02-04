@@ -53,6 +53,24 @@
                     }
                 }
             },
+             "page": {
+                "callLog": {
+                    "additionalFields": [
+                        {
+                            "const": "associatedDeal",
+                            "title": "Deals",
+                            "type": "selection",
+                            "contactDependent": true
+                        },
+                        {
+                            "const": "address",
+                            "title": "Address",
+                            "type": "inputField",
+                            "contactDependent": false
+                        }
+                    ]
+                }
+            },
             "canOpenLogPage": false,
             "contactPageUrl": "https://{hostname}/qvine/r/quotevine/a246/6100?p6100_relationship_id={contactId}&p6100_user_id={contactType}",
             "embeddedOnCrmPage": {
