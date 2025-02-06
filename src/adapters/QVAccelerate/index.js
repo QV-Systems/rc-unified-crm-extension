@@ -96,12 +96,16 @@ async function authenticateUser(url, apiKey, payload) {
 
 async function getSystemUser(url, apiKey, userId) {
     console.log(`https://${url}/qvine/quotevine/ringcentral/v1/system-users/${userId}/`)
-    const response = await axios.get(`https://${url}/qvine/quotevine/ringcentral/v1/system-users/${userId}/`, {
-        headers: {
-            'api-key': apiKey
-        }
-    });
-    return response.data 
+    try {
+        const response = await axios.get(`https://${url}/qvine/quotevine/ringcentral/v1/system-users/${userId}/`, {
+            headers: {
+                'api-key': apiKey
+            }
+        });
+        return response.data 
+    } catch (e) {
+        return console.log(e);
+    }
 }
 
 exports.getBasicAuth = getBasicAuth;

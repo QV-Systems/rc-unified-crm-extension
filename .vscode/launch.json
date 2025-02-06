@@ -14,5 +14,6 @@
             "program": "${workspaceFolder}\\src\\server.js",
             "envFile": "${workspaceFolder}\\.env"
         }
-    ]
+    ],
+    "justMyCode": false
 }

@@ -1,5 +1,5 @@
 {
-    "serverUrl": "https://60ajr67q91.execute-api.eu-west-2.amazonaws.com/default",
+    "serverUrl": "https://uavgjpyxmd.execute-api.eu-west-2.amazonaws.com/default",
     "redirectUri": "https://ringcentral.github.io/ringcentral-embeddable/redirect.html",
     "author": {
         "name": "QV Systems",
@@ -72,7 +72,7 @@
                 }
             },
             "canOpenLogPage": false,
-            "contactPageUrl": "https://{hostname}/qvine/r/quotevine/ringcentral579/6100?p6100_relationship_id={contactId}&p6100_user_id={contactType}",
+            "contactPageUrl": "https://{hostname}/qvine/r/quotevine/ringcentral/6100?p6100_relationship_id={contactId}&p6100_user_id={contactType}",
             "embeddedOnCrmPage": {
                 "welcomePage": {
                     "docLink": "https://ringcentral.github.io/rc-unified-crm-extension/",
